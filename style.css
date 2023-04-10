@@ -114,7 +114,7 @@ body{
     align-items: center;
 }
 .personText p {
-    font-size: 1.52rem !important;
+    font-size: 1.6rem !important;
     text-align: center;
     font-weight: 600;
     color: #eeeeee;
@@ -138,15 +138,21 @@ body{
     font-size: 5rem;
     transition: 0.2s;
     color: #00ccff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .Buttons button:active{
     transform: scale(0.95);
+}
+.leftBtn:hover , .rightBtn:hover{
+    transform: rotate(360deg);
 }
 .surprise{
     border: 3px solid #ffffff !important;
     padding: 4px 10px;
     border-radius: 6px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     position: relative;
     overflow: hidden;
     transition: all 0.3s ease-in;
